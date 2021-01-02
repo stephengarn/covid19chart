@@ -1,0 +1,38 @@
+﻿<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>covid 19 api </title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    
+    <div id="chart">
+        <h1 id="title">Canada's COVID-19 situation as represented in a chart.</h1>
+        <canvas id="myChart" style="width: 900px; height: 700px;"></canvas>
+        <p id="endParagraph">This chart dates back to when the pandemic began, to the current week ending every Saturday. As we can see the curve starting to 
+        flatten, this has been due to severe COVID-19 related restrictions on the lives of Canadians. This visual representation of the data is brought to you 
+        by a combination of myself, and the good people at <a href="https://about-corona.net">about-corona.net</a> and <a href="https://www.chartjs.org/">Chartjs.</a>
+        This project is far from perfect, but it gives you a decent idea of current situation. 
+        </p>
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <script src="covid19api.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,15 @@
+#chart {
+    margin: 0 auto;
+    padding: 10px;
+}
+#title {
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    text-align:center;
+    justify-content:center;
+}
+#endParagraph {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 6px;
+    justify-content:center;
+}
